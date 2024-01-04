@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Result>
+   <Etudiant xmlns="http://studentcard.org">
+      <lastName>EL AZOUAN</lastName>
+      <firstName>Aya</firstName>
+      <codeApoge>20000742</codeApoge>
+      <photo uri="aya.jpg"/>
+      <scanBar uri="scanbar.png"/>
+   </Etudiant>
+</Result>

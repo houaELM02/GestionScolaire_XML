@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cards xmlns="http://CarteEtudiant.org">
+    <logoUae uri="logoUae.png"/>
+    <nameUae>Université Abdelmalek Essaâdi</nameUae>
+    <nameSchool>Ecole Nationale des Sciences Appliquées </nameSchool>
+    <villeSchool>Tanger</villeSchool>
+    <logoEnsa uri="ensa.png"/>
+    <title>CARTE D'ETUDIANT</title>
+    <Etudiant>
+        <lastName>EL AZOUAN</lastName>
+        <firstName>Aya</firstName>
+        <codeApoge>20000742</codeApoge>
+        <photo uri="aya.jpeg"/>
+        <scanBar uri="codeQr.png"/>
+    </Etudiant>
+    <Etudiant>
+        <lastName>EL MOUMOUHI</lastName>
+        <firstName>Houda</firstName>
+        <codeApoge>20006989</codeApoge>
+        <photo uri="houda.jpeg"/>
+        <scanBar uri="codeQr.png"/>
+    </Etudiant>
+   
+    
+    <footer>Première Inscription : 2020 / 2021</footer>
+    
+    
+</cards>
