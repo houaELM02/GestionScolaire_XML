@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT ReleveNotes (logoEnsa ,logoUae ,classe , annee , Etudiants, Modules) >
+<!ELEMENT logoEnsa (#PCDATA)>
+<!ATTLIST logoEnsa 
+                 uri CDATA #REQUIRED>
+<!ELEMENT logoUae (#PCDATA) >
+<!ATTLIST logoUae
+                 uri CDATA #REQUIRED>
+<!ELEMENT classe (#PCDATA) >
+<!ELEMENT annee (#PCDATA) >
+<!ELEMENT Etudiants (Etudiant+) >
+<!ELEMENT Etudiant (CNE , Nom , Prenom , Notes) >
+<!ELEMENT CNE (#PCDATA) >
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Prenom (#PCDATA)>
+<!ELEMENT Notes (GINF31 , GINF32 ,GINF33 ,GINF34 ,GINF35,GINF36,GINF41 ,GINF42,GINF43,GINF44 ,GINF45 ,GINF46) >
+<!ELEMENT GINF31 (#PCDATA) >
+<!ELEMENT GINF32 (#PCDATA) >
+<!ELEMENT GINF33 (#PCDATA) >
+<!ELEMENT GINF34 (#PCDATA) >
+<!ELEMENT GINF35 (#PCDATA) >
+<!ELEMENT GINF36 (#PCDATA) >
+<!ELEMENT GINF41 (#PCDATA) >
+<!ELEMENT GINF42 (#PCDATA) >
+<!ELEMENT GINF43 (#PCDATA) >
+<!ELEMENT GINF44 (#PCDATA) >
+<!ELEMENT GINF45 (#PCDATA) >
+<!ELEMENT GINF46 (#PCDATA) >
+<!ELEMENT Modules (Module+)>
+<!ELEMENT  Module (#PCDATA) >
+<!ATTLIST Module 
+                code CDATA #REQUIRED>

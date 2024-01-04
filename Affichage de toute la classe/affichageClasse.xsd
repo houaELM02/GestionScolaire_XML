@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified">
+    <!-- Déclaration du type complexe pour Note -->
+    
+        <xs:simpleType name="NoteType">
+            <xs:restriction base="xs:float">
+                <xs:minInclusive value="0"/>
+                <xs:maxInclusive value="20"/>
+            </xs:restriction>
+        </xs:simpleType>
+    
+    <!-- Déclaration du type complexe pour Notes -->
+    <xs:complexType name="NotesType">
+            <xs:sequence>
+                <xs:element name="GINF31" type="NoteType"/>
+                <xs:element name="GINF32" type="NoteType"/>
+                <xs:element name="GINF33" type="NoteType"/>
+                <xs:element name="GINF34" type="NoteType"/>
+                <xs:element name="GINF35" type="NoteType"/>
+                <xs:element name="GINF36" type="NoteType"/>
+                <xs:element name="GINF41" type="NoteType"/>
+                <xs:element name="GINF42" type="NoteType"/>
+                <xs:element name="GINF43" type="NoteType"/>
+                <xs:element name="GINF44" type="NoteType"/>
+                <xs:element name="GINF45" type="NoteType"/>
+                <xs:element name="GINF46" type="NoteType"/>
+            </xs:sequence>
+        </xs:complexType>
+        <!-- Déclaration du type complexe pour un étudiant -->
+        <xs:complexType name="EtudiantType">
+            <xs:sequence>
+                <xs:element name="CNE" type="xs:string"/>
+                <xs:element name="Nom" type="xs:string"/>
+                <xs:element name="Prenom" type="xs:string"/>
+                <xs:element name="Notes" type="NotesType"/>
+            </xs:sequence>
+        </xs:complexType>
+        
+        <!-- Déclaration du type complexe pour la liste des étudiants -->
+        <xs:complexType name="EtudiantsType">
+            <xs:sequence>
+                <xs:element name="Etudiant" type="EtudiantType" minOccurs="1"  maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+        
+     
+    <!-- Ajout de la définition du type complexe pour Module -->
+    <xs:complexType name="ModuleType">
+        <xs:attribute name="code" type="xs:string"/>
+    </xs:complexType>
+    
+    <!-- Ajout de la définition du type complexe pour Modules -->
+    <xs:complexType name="ModulesType">
+        <xs:sequence>
+            <xs:element name="Module" type="ModuleType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- Déclaration du type complexe pour ReleveNotes -->
+    <xs:complexType name="ReleveNotesType">
+        <xs:sequence>
+            <xs:element name="logoEnsa" type="xs:anyType" minOccurs="0"/>
+            <xs:element name="logoUae" type="xs:anyType" minOccurs="0"/>
+            <xs:element name="classe" type="xs:string"/>
+            <xs:element name="annee" type="xs:string"/>
+            <xs:element name="Etudiants" type="EtudiantsType"/>
+            <xs:element name="Modules" type="ModulesType"/>
+        </xs:sequence>
+    </xs:complexType>
+        
+        <!-- Racine du schéma -->
+        <xs:element name="ReleveNotes" type="ReleveNotesType"/>
+        
+   
+</xs:schema>
