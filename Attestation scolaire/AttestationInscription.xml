@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Attest.xsl"?>
+<att  xmlns="http://GINF2Inscription.org">
+    
+    <royaumefr>Royaume du Maroc</royaumefr>
+    <nameUaefr>Université Abdelmalek Essaâdi</nameUaefr>
+    <nameSchoolfr>Ecole Nationale des Sciences Appliquées </nameSchoolfr>
+    <villeSchoolfr>Tanger</villeSchoolfr>
+    <servicefr>Service des Affaires Estudiantines</servicefr>
+    
+    <logoEnsa uri="ensa.png"/>
+    
+    <royaumeAr lang="ar" direction="rtl">المملكة المغربية</royaumeAr>
+    <nameUaeAr lang="ar" direction="rtl">جامعة عبد المالك السعدي</nameUaeAr>
+    <nameSchoolAr lang="ar" direction="rtl">المدرسة الوطنية للعلوم التطبيقية </nameSchoolAr>
+    <villeSchoolAr lang="ar" direction="rtl">طنجة</villeSchoolAr>
+    <serviceAr lang="ar" direction="rtl">مصلحة الشؤون الطلابية</serviceAr>
+    
+    
+    <title>ATTESTATION  DE  SCOLARITE</title>
+    
+    <body>
+        <header>Le Directeur de l'Ecole Natioale des Sciences Appliquées de Tanger atteste que l'étudiante :</header>
+        <infoEtudiant>
+            <nom cin="R36500" cne="S133332177">EL MOUMOUHI Houda</nom>
+            <naissance>née le 22 avril 2002 à TARGUISTE AL-HOCIEMA (MAROC)</naissance>
+            <anneeu> 2023 / 2024</anneeu>
+            <diplome>Génie Informatique</diplome>
+            <filiere>Génie Informatique</filiere>
+            <annee>2°Année Génie Informatique</annee>
+        </infoEtudiant>
+    
+   
+    
+        <date>Fait à TANGER, le 9 octobre 2023</date>
+        <Signature>Le Directeur: </Signature>
+        <CodeApogeName>N° étudiant: </CodeApogeName>
+        <CodeApoge>20006989</CodeApoge>
+        
+    </body>
+    <footer>
+        <Addresse>E.N.S.A B.P:1818 TANGER (MAROC)</Addresse>
+        <site>www.ensat.ac.ma</site>
+        <tel>0539393744</tel>
+        <fax>0539393743</fax>
+        
+        <nameSchoolAr lang="ar" direction="rtl">المدرسة الوطنية للعلوم التطبيقية </nameSchoolAr>
+        <AddresseAr lang="ar" direction="rtl">ص.ب 1818 طنجة المغرب</AddresseAr>
+        <telAr lang="ar" direction="rtl">0539393744 : هـ :</telAr>
+        <faxAr lang="ar" direction="rtl">0539393743   ف </faxAr>
+        
+        <avis>Le présent document n'est délivré qu'en un seul exmplaire.
+        Il appartient à l'étudiant d'en faire des photocopies certifiées conformes.</avis>
+    </footer>
+    
+    
+</att>
+
+
