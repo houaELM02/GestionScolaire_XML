@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:simpleType name="NoteType">
+        <xs:restriction base="xs:float">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="20"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="NotesType">
+        <xs:sequence>
+            <xs:element name="CNE" type="xs:string"/>
+            <xs:element name="Nom" type="xs:string"/>
+            <xs:element name="Prenom" type="xs:string"/>
+            <xs:element name="JAVA" type="NoteType"/>
+            <xs:element name="XML" type="NoteType"/>
+           
+        </xs:sequence>
+    </xs:complexType>
+    <!-- Déclaration du type complexe pour la liste des étudiants -->
+    <xs:complexType name="notes">
+        <xs:sequence>
+            <xs:element name="Note" type="NotesType" minOccurs="1"  maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    
+    <xs:complexType name="NotesGinf31">
+        <xs:sequence>
+            <xs:element name="logoEnsa" type="xs:anyType" minOccurs="0"/>
+            <xs:element name="logoUae" type="xs:anyType" minOccurs="0"/>
+            <xs:element name="classe" type="xs:string"/>
+            <xs:element name="annee" type="xs:string"/>
+            <xs:element name="Notes" type="notes"/>
+           
+        </xs:sequence>
+    </xs:complexType>
+    
+    <!-- Racine du schéma -->
+    <xs:element name="AffichageNotes" type="NotesGinf31"/>
+    
+    
+    
+    
+</xs:schema>
