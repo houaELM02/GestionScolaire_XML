@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<emploi xmlns="http://GINF2Emploi.org">
+    <TopBar>
+        <logoUae uri="logoUae.png"/>
+        <logoEnsa uri="ensa.png"/>
+        <Title>EMPLOI DU TEMPS ENSA TANGER GINF2</Title>
+        <semaine>Semaine :</semaine>
+        <annee>Année :</annee>
+        <SemNum>40</SemNum>
+        <AnneeNum>2023</AnneeNum>
+    </TopBar>
+    <Days>
+        <day name="Lundi"></day>
+        <day name="Mardi"></day>
+        <day name="Mercredi"></day>
+        <day name="Jeudi"></day>
+        <day name="Vendredi"></day>
+        <day name="Samedi"></day>
+        
+    </Days>
+    <times>
+        <time t="08:00"></time>
+        <time t="08:30"></time>
+        <time t="09:00"></time>
+        <time t="09:30"></time>
+        <time t="10:00"></time>
+        <time t="10:30"></time>
+        <time t="11:00"></time>
+        <time t="11:30"></time>
+        <time t="12:00"></time>
+        <time t="12:30"></time>
+        <time t="13:00"></time>
+        <time t="13:30"></time>
+        <time t="14:00"></time>
+        <time t="14:30"></time>
+        <time t="15:00"></time>
+        <time t="15:30"></time>
+        <time t="16:00"></time>
+        <time t="16:30"></time>
+        <time t="17:00"></time>
+        <time t="17:30"></time>
+        <time t="18:00"></time>
+    </times>
+    
+    <matieres>
+        
+        <matiere1>
+            <nom>MODELISATION ORI</nom>
+            <type>CM -</type>
+            <Durre1>09h00 - 10h30</Durre1>
+            <jour>Lundi</jour>
+            <nomProf>EL ALAMI</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere1>
+        
+        <matiere1suite>
+            <nom>MODELISATION ORI</nom>
+            <type>TD -</type>
+            <Durre1>11h00 - 12h30</Durre1>
+            <jour>Lundi</jour>
+            <nomProf>EL ALAMI</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere1suite>
+        
+        <matiere2>
+            <nom>MAIRISE ET OPTIM</nom>
+            <type>CM -</type>
+            <Durre1>13h30 - 15h00</Durre1>
+            <jour>Lundi</jour>
+            <nomProf>RAHALI</nomProf>
+            <salle>Salle B19</salle>
+        </matiere2>
+        
+        <matiere3>
+            <nom>MAIRISE ET OPTIM</nom>
+            <type>CM -</type>
+            <Durre1>15h30 - 17h00</Durre1>
+            <jour>Lundi</jour>
+            <nomProf>BADIR</nomProf>
+            <salle>Salle B19</salle>
+        </matiere3>
+        
+        <matiere4>
+            <nom>OPTIMISATION ET Q</nom>
+            <type>CM -</type>
+            <Durre1>09h00 - 10h30</Durre1>
+            <jour>Mardi</jour>
+            <nomProf>FISSOUNE</nomProf>
+            <salle>SALE B19</salle>
+        </matiere4>
+        
+        <matiere5>
+            <nom>OPTIMISATION ET Q</nom>
+            <type>TD -</type>
+            <Durre1>11h00 - 12h30</Durre1>
+            <jour>Mardi</jour>
+            <nomProf>FISSOUNE</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere5>
+        
+        <matiere6>
+            <nom>ADMINISTRATION S</nom>
+            <type>TP -</type>
+            <Durre1>13h30 - 15h00</Durre1>
+            <jour>Mardi</jour>
+            <nomProf>AMECHNOUE</nomProf>
+            <salle>SALLE B6</salle>
+        </matiere6>
+        
+        <matiere7>
+            <nom>ADMINISTRATION S</nom>
+            <type>TP -</type>
+            <Durre1>15h30 - 17h00</Durre1>
+            <jour>Mardi</jour>
+            <nomProf>AMECHNOUE</nomProf>
+            <salle>SALLE B6</salle>
+        </matiere7>
+        
+        <matiere8>
+            <nom>PROGRAMMATION OR</nom>
+            <type>CM -</type>
+            <Durre1>09h00 - 10h30</Durre1>
+            <jour>Mercredi</jour>
+            <nomProf>EL HADDAD</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere8>
+        
+        <matiere9>
+            <nom>PROGRAMMATION OR</nom>
+            <type>TP -</type>
+            <Durre1>11h00 - 12h30</Durre1>
+            <jour>Mercredi</jour>
+            <nomProf>EL HADDAD</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere9>
+        
+        <matiere61>
+            <nom>ADMINISTRATION S</nom>
+            <type>TP -</type>
+            <Durre1>13h30 - 15h00</Durre1>
+            <jour>Mercredi</jour>
+            <nomProf>AMECHNOUE</nomProf>
+            <salle>SALLE B6</salle>
+        </matiere61>
+        
+        <matiere71>
+            <nom>ADMINISTRATION S</nom>
+            <type>TP -</type>
+            <Durre1>15h30 - 17h00</Durre1>
+            <jour>Mercredi</jour>
+            <nomProf>AMECHNOUE</nomProf>
+            <salle>SALLE B6</salle>
+        </matiere71>
+        
+        
+        
+        <matiere10>
+            <nom>ADMINISTRATION E</nom>
+            <type>CM -</type>
+            <Durre1>09h00 - 10h30</Durre1>
+            <jour>Jeudi</jour>
+            <nomProf>BADIR</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere10>
+        
+        <matiere11>
+            <nom>ADMINISTRATION E</nom>
+            <type>TD -</type>
+            <Durre1>11h00 - 12h30</Durre1>
+            <jour>Jeudi</jour>
+            <nomProf>BADIR</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere11>
+        
+        <matiere12>
+            <nom>ESPAGNOL</nom>
+            <type>CM -</type>
+            <Durre1>13h30 - 15h00</Durre1>
+            <jour>Jeudi</jour>
+            <nomProf>LAAMARTI</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere12>
+        
+        <matiere13>
+            <nom>ADMINISTRATION S</nom>
+            <type>CM -</type>
+            <Durre1>15h30 - 17h00</Durre1>
+            <jour>Jeudi</jour>
+            <nomProf>AMECHNOUE</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere13>
+        
+        <matiere14>
+            <nom>XML</nom>
+            <type>CM -</type>
+            <Durre1>09h00 - 10h30</Durre1>
+            <jour>Vendredi</jour>
+            <nomProf>LACHKAR</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere14>
+        
+        <matiere15>
+            <nom>XML</nom>
+            <type>TP -</type>
+            <Durre1>11h00 - 12:30</Durre1>
+            <jour>Vendredi</jour>
+            <nomProf>LACHKAR</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere15>
+        
+        <matiere16>
+            <nom>ANGLAIS</nom>
+            <type>CM -</type>
+            <Durre1>14h30 - 16h00</Durre1>
+            <jour>Vendredi</jour>
+            <nomProf>BOURIGUI</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere16>
+        
+        <matiere17>
+            <nom>ANGLAIS</nom>
+            <type>CM -</type>
+            <Durre1>16h30 - 18h00</Durre1>
+            <jour>Vendredi</jour>
+            <nomProf>BOURIGUI</nomProf>
+            <salle>SALLE B19</salle>
+        </matiere17>
+        
+        
+    </matieres>
+    
+    <footer>
+        <titlefooter>Légendes des en-tetes :</titlefooter>
+        <f1>Cours</f1>
+        <f2>TP</f2>
+        <f3>TD</f3>
+        
+    </footer>
+    
+</emploi>
